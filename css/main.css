@@ -1,0 +1,294 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: "Arial", sans-serif;
+
+}
+
+.clearfix::after {
+    display: table;
+    content: "";
+    width: 100%;
+    clear: both;
+}
+
+body {
+    min-width: 1400px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    padding-top: 44px;
+    padding-bottom: 161px;
+    background: url("../img/first-bg.jpg") no-repeat center top;
+    background-size: cover;
+}
+
+.heading {
+    width: 100%;
+    margin-left: 17%;
+    padding-top: 10px;
+
+}
+
+.logo {
+    width: 30%;
+    height: 30px;
+    background: url("../img/logo.png") no-repeat;
+    float: left;
+}
+
+nav {
+    width: 64.5%;
+    float: right;
+}
+
+nav ul {
+    list-style: none;
+    display: block;
+}
+
+nav ul li {
+    margin-right: 5%;
+    float: left;
+}
+
+nav ul li a {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 41px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+Header h1 {
+    margin-top: 212px;
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-align: center;
+}
+
+header .title {
+    margin-top: 51px;
+    color: #ffffff;
+    font-size: 75px;
+    font-weight: 700;
+    letter-spacing: -1.875px;
+    text-align: center;
+}
+
+.button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 59px;
+    border-radius: 3px;
+    background-color: #fed136;
+    width: 240px;
+    height: 65px;
+    color: #484543;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 65px;
+}
+
+#services {
+    width: 100%;
+}
+
+.top119px {
+    margin-top: 119px;
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 75px;
+    text-align: center;
+}
+
+p.text {
+    margin-top: 20px;
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.content {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 77px;
+}
+
+.content .item {
+    width: 27%;
+    margin-right: 9.5%;
+    float: left;
+}
+
+.content .item:last-child {
+    margin-right: 0;
+}
+
+.content .item img {
+    width: 74px;
+    height: 73px;
+    margin-left: 35%;
+    margin-bottom: 25px;
+}
+
+.content .item h3 {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.45px;
+    line-height: 75px;
+    text-align: center;
+}
+
+.content .item p {
+    margin-top: 15px;
+    margin-bottom: 118px;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+    text-align: justify;
+}
+
+#portfolio {
+    width: 100%;
+    padding-top: 119px;
+    padding-bottom: 134px;
+    background-color: #f7f7f7;
+}
+
+.content_portfolio {
+    width: 67%;
+    margin: 0 auto;
+    margin-top: 75px;
+}
+
+.content_portfolio .item {
+    width: 31%;
+    margin-right: 3.5%;
+    float: left;
+}
+
+.content_portfolio .item:last-child {
+    margin-right: 0%;
+}
+
+.content_portfolio .item img {
+    width: 100%;
+    height: 301px;
+}
+
+#about_us {
+    padding-top: 127px;
+    padding-bottom: 117px;
+}
+
+h2.h2_au {
+    color: #222222;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    line-height: 75px;
+    text-align: center;
+}
+
+p.p_au {
+    margin-top: 20px;
+    margin-bottom: 77px;
+    color: #777777;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.au_item {
+    width: 59%;
+    margin: 0 auto;
+    margin-bottom: 93px;
+}
+
+.image_au {
+    width: 66%;
+    float: right
+}
+
+.image_au:nth-child(1n) {
+    float: left;
+}
+
+.image_au img {
+    width: 183px;
+    height: 183px;
+    margin-left: 5%;
+}
+
+.image_au.rightpic img {
+    margin-left: 0;
+    margin-right: 7.6%;
+    float: right;
+}
+
+.au_text {
+    width: 34%;
+    text-align: right;
+    float: left;
+}
+
+.au_text.odd {
+    text-align: left;
+    float: right;
+}
+
+.au_text h3 {
+    margin-top: 7px;
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.45px;
+}
+
+.au_text p {
+    margin-top: 18px;
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+}
+
+footer {
+    padding-bottom: 112px;
+}
+
+footer p {
+    color: #555555;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: -0.35px;
+    line-height: 22px;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+    header ul {
+        display: none;
+    }
+
+    nav {
+        height: 50px;
+        background: url("../img/menu-icon.png") no-repeat left top;
+    }
+}
